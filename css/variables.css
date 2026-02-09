@@ -1,0 +1,58 @@
+/* =========================
+   DESIGN TOKENS / VARIABLES
+   ========================= */
+
+:root {
+    /* =========================
+       BRAND (IDENTIDAD)
+       ========================= */
+    --brand-primary: rgba(20, 6, 128, 0.95);
+    --brand-primary-soft: rgba(14, 5, 84, 0.88);
+    --brand-primary-overlay: rgba(20, 6, 128, 0.95);
+
+    
+
+    /* =========================
+       BACKGROUNDS
+       ========================= */
+    --bg-page: #012061;
+    --bg-section: #ffffff;
+    --bg-card: #f2f2f2;
+    --bg-surface: #1e293b;
+    --bg-overlay-soft: rgba(30, 53, 154, 0.65);
+
+    /* Section backgrounds */
+    --bg-about: #f1f3f5;
+    --bg-skills: #ffffff;
+    --bg-experience: var(--brand-primary);
+    --bg-certifications: rgba(30, 53, 154, 0.65);
+    --bg-projects: #eef1f6;
+    --bg-footer: var(--brand-primary-soft);
+
+    /* =========================
+       TEXT
+       ========================= */
+    --text-primary: #303030;
+    --text-inverse: #ffffff;
+    --text-muted: #cbd5e1;
+
+    /* =========================
+       ACCENT / ACTION
+       ========================= */
+    --accent-primary: #38bdf8;
+    --accent-primary-hover: #0ea5e9;
+    --accent-warning: #f59e0b;
+
+    /* =========================
+       BORDERS / LINES
+       ========================= */
+    --border-light: rgba(255, 255, 255, 0.25);
+    --border-dark: rgba(0, 0, 0, 0.15);
+
+    /* =========================
+       SHADOWS
+       ========================= */
+    --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.35);
+}

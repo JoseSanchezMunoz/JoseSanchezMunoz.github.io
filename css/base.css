@@ -1,0 +1,47 @@
+/* =========================
+   BASE / RESET
+   ========================= */
+
+/* Box sizing global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* =========================
+   BODY / TYPOGRAPHY
+   ========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+}
+
+/* =========================
+   LISTS
+   ========================= */
+
+li {
+    list-style: none;
+}
+
+/* =========================
+   LINKS (base behavior)
+   ========================= */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

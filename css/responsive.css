@@ -1,0 +1,266 @@
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       NAVBAR / MENU MOBILE
+       ========================= */
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+
+        width: 100%;
+        height: calc(100vh - 70px);
+
+        background-color: var(--brand-primary-overlay);
+
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 30px;
+
+        transition: left 0.3s ease;
+        overflow-y: auto;
+
+        z-index: 998;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        width: 100%;
+
+        padding: 20px 0;
+
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        border-bottom: 1px solid var(--border-light);
+        transition: background-color 0.2s ease;
+    }
+
+    .nav-link:hover,
+    .nav-link:active {
+        background-color: var(--border-light);
+    }
+
+    .nav-item:last-child .nav-link {
+        border-bottom: none;
+    }
+
+    /* Animación X del hamburger */
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* =========================
+       HERO
+       ========================= */
+
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero-image,
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content {
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .hero-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 220px);
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* =========================
+       SKILLS
+       ========================= */
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        max-width: 90%;
+    }
+
+    /* =========================
+       PROJECTS
+       ========================= */
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+
+
+/* =========================
+   HERO
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hero-image,
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content {
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .hero-actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 220px);
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-button {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+/* =========================
+   SKILLS
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        max-width: 90%;
+    }
+}
+
+/* =========================
+   PROJECTS
+   ========================= */
+
+@media (max-width: 1024px) {
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .footer-contact {
+        width: 80%;
+    }
+
+    .social-link {
+        margin: 0 10px;
+    }
+}
