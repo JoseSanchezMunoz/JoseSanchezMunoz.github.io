@@ -5,12 +5,17 @@
 
     .nav-panel {
         position: fixed;
-        inset: var(--header-height) 0 auto 0;
+        inset: var(--header-height) 0 0 0;
+        z-index: 45;
         display: grid;
-        gap: 1rem;
-        padding: 1rem;
+        grid-template-rows: 1fr auto;
+        align-content: center;
+        gap: 1.35rem;
+        min-height: calc(100dvh - var(--header-height));
+        padding: clamp(1.25rem, 5vw, 2rem);
+        overflow-y: auto;
         background: var(--bg-elevated);
-        border-bottom: 1px solid var(--border);
+        border-bottom: 0;
         box-shadow: var(--shadow-md);
         transform: translateY(-120%);
         opacity: 0;
@@ -26,18 +31,29 @@
         pointer-events: auto;
     }
 
+    body.nav-open {
+        overflow: hidden;
+    }
+
     .nav-menu {
         display: grid;
-        gap: 0.2rem;
+        align-content: center;
+        gap: 0.75rem;
+        min-height: 100%;
     }
 
     .nav-link {
         width: 100%;
+        min-height: 56px;
         justify-content: center;
+        border: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
+        background: color-mix(in srgb, var(--bg-card) 76%, transparent);
+        font-size: 1.05rem;
     }
 
     .header-actions {
         justify-content: center;
+        padding-bottom: max(0.25rem, env(safe-area-inset-bottom));
     }
 
     .hero-inner,
