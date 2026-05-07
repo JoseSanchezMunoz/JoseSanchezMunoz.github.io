@@ -17,7 +17,31 @@ const createIcon = ([src, alt, description]) => {
   tooltip.innerHTML = `<strong>${alt}</strong>${description}`;
 
   wrapper.append(img, tooltip);
+  wrapper.addEventListener("pointerenter", () => alignTooltip(wrapper, tooltip));
+  wrapper.addEventListener("focus", () => alignTooltip(wrapper, tooltip));
   return wrapper;
+};
+
+const alignTooltip = (wrapper, tooltip) => {
+  wrapper.style.setProperty("--tooltip-offset", "0px");
+  wrapper.style.setProperty("--tooltip-arrow-offset", "0px");
+
+  const margin = 16;
+  const wrapperRect = wrapper.getBoundingClientRect();
+  const tooltipWidth = tooltip.offsetWidth;
+  const viewportWidth = document.documentElement.clientWidth;
+  const centeredLeft = wrapperRect.left + (wrapperRect.width / 2) - (tooltipWidth / 2);
+  const centeredRight = centeredLeft + tooltipWidth;
+  let offset = 0;
+
+  if (centeredLeft < margin) {
+    offset = margin - centeredLeft;
+  } else if (centeredRight > viewportWidth - margin) {
+    offset = viewportWidth - margin - centeredRight;
+  }
+
+  wrapper.style.setProperty("--tooltip-offset", `${offset}px`);
+  wrapper.style.setProperty("--tooltip-arrow-offset", `${-offset}px`);
 };
 
 const renderFacts = (data) => {
