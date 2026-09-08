@@ -67,6 +67,21 @@
     border: 1px solid var(--border);
 }
 
+.profile-mark {
+    width: 100%;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    border: 1px solid color-mix(in srgb, var(--brand-secondary) 30%, var(--border));
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--brand-primary) 92%, #ffffff), var(--brand-secondary));
+    color: var(--text-on-brand);
+    font-size: clamp(3rem, 8vw, 5.4rem);
+    font-weight: 900;
+    letter-spacing: 0;
+    box-shadow: var(--shadow-sm);
+}
+
 .profile-role {
     margin-bottom: 0.3rem;
     color: var(--text-primary);
@@ -135,6 +150,15 @@
 
 .prose p:last-child {
     margin-bottom: 0;
+}
+
+.about-prose {
+    max-width: 860px;
+    padding: clamp(1.2rem, 3vw, 1.7rem);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--bg-card);
+    box-shadow: var(--shadow-sm);
 }
 
 .facts-grid {
@@ -206,7 +230,7 @@
 }
 
 .contact-copy::before {
-    content: "QA";
+    content: "DEV";
     position: absolute;
     right: 1.2rem;
     bottom: 0.4rem;

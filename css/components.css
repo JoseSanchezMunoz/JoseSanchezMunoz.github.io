@@ -17,7 +17,7 @@
 
 .button-primary {
     background: var(--brand-primary);
-    color: #ffffff;
+    color: var(--text-on-brand);
     box-shadow: var(--shadow-sm);
 }
 
@@ -305,6 +305,10 @@
     min-height: 100%;
 }
 
+.project-card-text {
+    grid-template-columns: 1fr;
+}
+
 .project-media {
     position: relative;
     display: grid;
@@ -568,7 +572,7 @@
         var(--brand-accent)
     );
     font-size: 1.8rem;
-    color: white;
+    color: var(--text-on-brand);
     box-shadow: var(--shadow-sm);
 }
 

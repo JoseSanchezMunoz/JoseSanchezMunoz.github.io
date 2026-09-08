@@ -4,7 +4,7 @@ window.Portfolio = window.Portfolio || {};
 window.Portfolio.translations = {
   es: {
     skipLink: "Saltar al contenido principal",
-    sectionLabel: "Portfolio QA",
+    sectionLabel: "Portfolio profesional",
     nav: {
       home: "Inicio",
       about: "Sobre mí",
@@ -15,109 +15,109 @@ window.Portfolio.translations = {
       contact: "Contacto",
     },
     hero: {
-      eyebrow: "QA Tester | Manual + Automatización",
+      eyebrow: "Desarrollo | Automatización | Datos",
       title: "José Sánchez Muñoz",
-      summary: "QA Tester orientado a prevenir defectos, validar flujos críticos y entregar software confiable con criterios claros de calidad.",
+      summary: "Bachiller en Ingeniería de Sistemas enfocado en desarrollar soluciones internas, automatizar procesos y trabajar con datos operativos para mejorar trazabilidad y eficiencia.",
       primaryCta: "Ver proyectos",
       secondaryCta: "Contactar",
-      role: "QA Tester orientado a automatización",
-      note: "Testing funcional, automatización web, APIs, SQL y reporte de incidencias.",
+      role: "Desarrollo de soluciones internas y automatización",
+      note: "Python, SQL, Excel avanzado, bases de datos, reportería operativa y validación funcional.",
     },
     about: {
-      title: "QA Tester, Bachiller en Ingeniería de Sistemas de la Universidad Nacional Mayor de San Marcos (UNMSM)",
-      p1: "Experiencia en pruebas funcionales, análisis de incidencias y automatización.",
-      p2: "Validación de flujos críticos, detección de defectos y aseguramiento de la estabilidad funcional mediante evidencia y trazabilidad.",
-      p3: "Busco aportar en QA manual o automatización fortaleciendo calidad, cobertura y prevención de errores.",
-      processHeading: "¿Cómo abordo un proceso de pruebas?",
-      processText: "Proceso estructurado para asegurar cobertura, trazabilidad y calidad funcional."
+      title: "Bachiller en Ingeniería de Sistemas por la Universidad Nacional Mayor de San Marcos (UNMSM)",
+      p1: "Experiencia construyendo herramientas internas para procesos contables, comerciales y operativos.",
+      p2: "Trabajo con programación, bases de datos y reportería para reducir tareas manuales, estructurar información operativa y mejorar la trazabilidad.",
+      p3: "Antes de desarrollar una solución, busco entender el problema, sus reglas de negocio y el impacto que tendrá en el proceso.",
+      processHeading: "Cómo abordo una solución",
+      processText: "Un enfoque práctico para convertir necesidades operativas en herramientas claras, útiles y mantenibles."
     },
     skills: {
-      title: "Herramientas organizadas por flujo de trabajo.",
+      title: "Herramientas organizadas por uso profesional.",
     },
     experience: {
-      title: "Experiencia real aplicando QA en productos y operaciones.",
+      title: "Experiencia aplicando desarrollo, automatización, datos y validación funcional en procesos reales.",
     },
     projects: {
-      title: "Evidencia práctica del ciclo de vida de pruebas.",
+      title: "Proyectos y evidencias de automatización, desarrollo y validación.",
       carouselLabel: "Galería de capturas",
       carouselPrev: "Imagen anterior",
       carouselNext: "Imagen siguiente",
     },
     certifications: {
-      title: "Formación enfocada en testing, automatización y gestión.",
+      title: "Formación complementaria en programación, datos, automatización, calidad y gestión.",
     },
     contact: {
-      title: "Conversemos sobre oportunidades QA.",
-      availability: "Disponible para oportunidades QA",
-      roleTitle: "QA Tester orientado a calidad y automatización",
-      text: "Estoy disponible para roles de QA Tester, automatización QA o posiciones donde la calidad sea parte real del producto.",
+      title: "Conversemos sobre oportunidades en tecnología.",
+      availability: "Disponible para oportunidades profesionales",
+      roleTitle: "Desarrollo, automatización y soporte de desarrollo",
+      text: "Estoy abierto a oportunidades vinculadas con desarrollo de software, automatización de procesos, soporte de desarrollo, análisis técnico y validación funcional.",
       cardTitle: "¿Hablamos?",
-      cardText: "Si tienes una oportunidad laboral, propuesta o quieres conversar sobre QA y automatización, puedes escribirme directamente.",
+      cardText: "Si tienes una oportunidad laboral, propuesta o quieres conversar sobre soluciones internas, automatización o soporte de desarrollo, puedes escribirme directamente.",
       emailButton: "Enviarme un correo"
     },
     footer: {
-      copy: "2026 José Sánchez Muñoz. QA Tester Portfolio.",
+      copy: "2026 José Sánchez Muñoz. Portfolio profesional.",
       back: "Volver arriba",
     },
     facts: [
-      ["Perfil", "QA Funcional + Automatización"],
-      ["Base técnica", "Web · APIs · SQL"],
-      ["Enfoque", "Defectos · Calidad · Evidencia"],
+      ["Perfil", "Desarrollo + Automatización"],
+      ["Base técnica", "Python · SQL · Excel"],
+      ["Enfoque", "Procesos · Datos · Trazabilidad"],
       ["Disponibilidad", "Remoto · Híbrido · Presencial"],
     ],
     skillGroups: [
       {
         title: "Gestión y colaboración",
-        text: "Organización de tareas, seguimiento de incidencias y comunicación con equipos ágiles.",
+        text: "Organización de tareas, seguimiento de requerimientos e incidencias, y comunicación con usuarios o equipos técnicos.",
         icons: [
-          ["assets/icons/jira.png", "Jira", "Se utiliza para la gestión de proyectos ágiles y el seguimiento de incidencias y bugs."],
+          ["assets/icons/jira.png", "Jira", "Herramienta para seguimiento de tareas, incidencias y coordinación de trabajo técnico."],
           ["assets/icons/trello.png", "Trello", "Permite organizar tareas y flujos de trabajo mediante tableros visuales y listas."],
         ],
       },
       {
         title: "Control de versiones",
-        text: "Historial de cambios, colaboración técnica y trazabilidad del trabajo.",
+        text: "Historial de cambios, colaboración técnica y trazabilidad del desarrollo.",
         icons: [
           ["assets/icons/github.png", "GitHub", "Facilita control de versiones, revisión de código y trabajo colaborativo."],
         ],
       },
       {
-        title: "Automatización de pruebas",
-        text: "Pruebas funcionales automatizadas, BDD y reportes orientados a evidencia.",
+        title: "Automatización y validación",
+        text: "Automatización de flujos, validación funcional y control de consistencia antes de entregar una solución.",
         icons: [
-          ["assets/icons/selenium_webdriver.png", "Selenium WebDriver", "Permite automatizar pruebas funcionales en aplicaciones web y validar flujos críticos."],
-          ["assets/icons/serenity_bdd.png", "Serenity BDD", "Framework para automatización BDD con reportes claros, trazables y orientados a evidencia."],
+          ["assets/icons/selenium_webdriver.png", "Selenium WebDriver", "Permite automatizar validaciones funcionales en aplicaciones web."],
+          ["assets/icons/serenity_bdd.png", "Serenity BDD", "Framework BDD útil para estructurar pruebas trazables y reportes de evidencia."],
         ],
       },
       {
-        title: "APIs y testing",
-        text: "Validación de endpoints, contratos, respuestas y escenarios de prueba.",
+        title: "APIs y soporte técnico",
+        text: "Validación de servicios, revisión de respuestas y análisis técnico de incidencias.",
         icons: [
-          ["assets/icons/postman.png", "Postman", "Herramienta para probar, validar y documentar APIs REST de forma eficiente."],
+          ["assets/icons/postman.png", "Postman", "Herramienta para probar, validar y documentar APIs REST."],
         ],
       },
       {
         title: "Bases de datos",
-        text: "Consultas, validación de datos y soporte al análisis de resultados.",
+        text: "Consultas, extracción de información, validación de datos y soporte a reportería operativa.",
         icons: [
-          ["assets/icons/sql.png", "SQL", "Permite consultar, validar y analizar datos en bases relacionales durante pruebas."],
+          ["assets/icons/sql.png", "SQL", "Permite consultar, validar y analizar datos en bases relacionales."],
         ],
       },
       {
         title: "Entornos de desarrollo",
-        text: "Ejecución, depuración y mantenimiento de pruebas automatizadas.",
+        text: "Ejecución, depuración, mantenimiento de scripts y desarrollo de soluciones internas.",
         icons: [
-          ["assets/icons/vscode.png", "Visual Studio Code", "Editor utilizado para revisar, mantener y ejecutar scripts de apoyo QA."],
-          ["assets/icons/intellij.png", "IntelliJ IDEA", "IDE usado para desarrollo y ejecución de pruebas automatizadas en Java."],
+          ["assets/icons/vscode.png", "Visual Studio Code", "Editor utilizado para desarrollo, scripts de automatización y mantenimiento técnico."],
+          ["assets/icons/intellij.png", "IntelliJ IDEA", "IDE usado para desarrollo en Java y automatización de pruebas."],
         ],
       },
       {
         title: "Lenguajes",
-        text: "Automatización, scripting, validación frontend y soporte técnico.",
+        text: "Desarrollo, scripting, automatización, validación frontend y soporte técnico.",
         icons: [
-          ["assets/icons/python.png", "Python", "Útil para scripting, automatización de controles, reporterías y apoyo al análisis QA."],
-          ["assets/icons/java.png", "Java", "Lenguaje utilizado para automatización con Selenium, Cucumber y frameworks BDD."],
-          ["assets/icons/javascript.png", "JavaScript", "Apoya la validación frontend, pruebas de comportamiento y entendimiento de flujos web."],
+          ["assets/icons/python.png", "Python", "Útil para automatizar procesos, transformar datos, generar reportes y construir herramientas internas."],
+          ["assets/icons/java.png", "Java", "Lenguaje utilizado para desarrollo y automatización con Selenium, Cucumber y frameworks BDD."],
+          ["assets/icons/javascript.png", "JavaScript", "Apoya el desarrollo y mantenimiento de interfaces web internas."],
           ["assets/icons/html.png", "HTML", "Ayuda a revisar estructura, accesibilidad básica y comportamiento de interfaces web."],
           ["assets/icons/css.png", "CSS", "Permite validar estilos, responsive design y consistencia visual de componentes."],
         ],
@@ -125,20 +125,20 @@ window.Portfolio.translations = {
     ],
     experienceData: [
       {
-        company: "Banco de la Nación",
-        role: "QA Engineer - Control de Calidad y Reporterías",
-        type: "Practicante profesional",
-        period: "Ene. 2024 - Ene. 2025",
-        description: "QA en sistemas bancarios de reclamos, con foco en pruebas funcionales, gestión de incidencias en producción, controles de calidad y reporterías.",
-        highlights: ["Pruebas funcionales y regresión", "Análisis de incidencias productivas", "Automatización de controles con Python y SQL"],
+        company: "Asesores & Multinegocios Cesar Eduardo E.I.R.L.",
+        role: "Desarrollador de Software y Automatización",
+        type: "Experiencia profesional",
+        period: "Feb. 2025 - Actualidad",
+        description: "Desarrollo de soluciones internas y automatizaciones a medida para procesos contables, comerciales y operativos, incorporando validación funcional y soporte técnico.",
+        highlights: ["Herramientas internas con Python, Excel y bases de datos", "Mantenimiento de aplicaciones web internas", "Análisis de requerimientos e incidencias"],
       },
       {
-        company: "Asesores & Multinegocios Cesar Eduardo E.I.R.L.",
-        role: "QA / Soporte de Desarrollo",
-        type: "Practicante preprofesional",
-        period: "Sept. 2022 - Dic. 2023",
-        description: "Ejecución de pruebas funcionales en aplicaciones web internas, soporte QA mediante análisis de logs y mantenimiento básico frontend/backend.",
-        highlights: ["Validación de flujos web internos", "Revisión de logs y soporte técnico", "Apoyo en mantenimiento frontend/backend"],
+        company: "Banco de la Nación",
+        role: "Practicante Profesional de Automatización, Control de Calidad de Datos y Reportería",
+        type: "Practicante profesional",
+        period: "Ene. 2024 - Ene. 2025",
+        description: "Automatización, reportería y validación de datos en el entorno de gestión de reclamos, con apoyo en SQL, Excel avanzado, Python y control funcional.",
+        highlights: ["Automatización de reportería operativa", "Validación de reglas funcionales y consistencia de datos", "Documentación de incidencias con evidencias"],
       },
     ],
     projectsData: [
@@ -148,7 +148,7 @@ window.Portfolio.translations = {
           images: ["assets/img/OrangeHRM.png"],
           video: "",
         },
-        description: "Framework de automatización QA en Java con Selenium y Cucumber, enfocado en login/logout, BDD y arquitectura escalable.",
+        description: "Framework de automatización web en Java con Selenium y Cucumber, enfocado en validación funcional, BDD y estructura mantenible.",
         tags: ["Java", "Selenium", "Cucumber", "BDD"],
         results: ["Flujo login/logout automatizado", "Casos escritos en Gherkin", "Evidencia y estrategia documentadas"],
         resources: [
@@ -158,35 +158,35 @@ window.Portfolio.translations = {
       },
     ],
     certificationsData: [
-      { category: "Automatización de pruebas", name: "Selenium con Java y Cucumber", issuer: "The Free Range Tester (Udemy)" },
+      { category: "Automatización y calidad", name: "Selenium con Java y Cucumber", issuer: "The Free Range Tester (Udemy)" },
       { category: "Programación", name: "Curso de Java Profesional", issuer: "Código Facilito" },
       { category: "Programación", name: "Curso de Python Profesional", issuer: "Código Facilito" },
       { category: "Programación", name: "Python", issuer: "Kaggle" },
       { category: "Metodologías ágiles", name: "Scrum Fundamentals Certified (SFC)", issuer: "SCRUMstudy" },
       { category: "Gestión", name: "Fundamentos profesionales de Análisis Empresarial", issuer: "Microsoft & LinkedIn" },
       { category: "Gestión", name: "Fundamentos de Gestión de Proyectos", issuer: "Microsoft & LinkedIn" },
-      { category: "Datos y reporting", name: "Fundamentos de Análisis de Datos", issuer: "Microsoft & LinkedIn" },
-      { category: "Datos y reporting", name: "Curso de Power BI", issuer: "Udemy" },
+      { category: "Datos y reportería", name: "Fundamentos de Análisis de Datos", issuer: "Microsoft & LinkedIn" },
+      { category: "Datos y reportería", name: "Curso de Power BI", issuer: "Udemy" },
     ],
 
     analysisProcessData: [
       [
         "Análisis",
-        "Analizo requerimientos y criterios de aceptación para definir alcance y estrategia de pruebas."
+        "Entiendo el problema, las reglas de negocio y el impacto operativo antes de proponer una solución."
       ],
       [
-        "Diseño",
-        "Diseño escenarios y casos priorizando flujos críticos y cobertura funcional."
+        "Construcción",
+        "Desarrollo herramientas, automatizaciones o consultas que reduzcan trabajo manual y mejoren la trazabilidad."
       ],
       [
-        "Ejecución",
-        "Ejecuto pruebas, documento evidencias y reporto incidencias con trazabilidad."
+        "Validación",
+        "Reviso datos, reglas funcionales e incidencias para asegurar resultados útiles, consistentes y mantenibles."
       ],
     ],
   },
   en: {
     skipLink: "Skip to main content",
-    sectionLabel: "QA portfolio",
+    sectionLabel: "Professional portfolio",
     nav: {
       home: "Home",
       about: "About",
@@ -197,109 +197,109 @@ window.Portfolio.translations = {
       contact: "Contact",
     },
     hero: {
-      eyebrow: "QA Tester | Manual + Automation",
+      eyebrow: "Development | Automation | Data",
       title: "José Sánchez Muñoz",
-      summary: "QA Tester focused on preventing defects, validating critical flows, and delivering reliable software with clear quality criteria.",
+      summary: "Systems Engineering graduate focused on building internal solutions, automating processes, and working with operational data to improve traceability and efficiency.",
       primaryCta: "View projects",
       secondaryCta: "Contact",
-      role: "QA Tester focused on automation",
-      note: "Functional testing, web automation, APIs, SQL, and defect reporting.",
+      role: "Internal tools development and process automation",
+      note: "Python, SQL, advanced Excel, databases, operational reporting, and functional validation.",
     },
     about: {
-      title: "QA Tester, Bachelor's Degree in Systems Engineering from the National University of San Marcos (UNMSM)",
-      p1: "Experience in functional testing, incident analysis, and automation.",
-      p2: "Validation of critical flows, defect detection, and functional stability through evidence and traceability.",
-      p3: "I seek to contribute in manual QA or automation, strengthening quality, coverage, and error prevention.",
-      processHeading: "How do I approach a testing process?",
-      processText: "Structured process to ensure coverage, traceability, and functional quality."
+      title: "Systems Engineering graduate from the National University of San Marcos (UNMSM)",
+      p1: "Experience building internal tools for accounting, commercial, and operational processes.",
+      p2: "I work with programming, databases, and reporting to reduce manual tasks, structure operational information, and improve traceability.",
+      p3: "Before developing a solution, I aim to understand the problem, its business rules, and the impact it will have on the process.",
+      processHeading: "How I approach a solution",
+      processText: "A practical approach to turn operational needs into clear, useful, and maintainable tools."
     },
     skills: {
-      title: "Tools organized by workflow.",
+      title: "Tools organized by professional use.",
     },
     experience: {
-      title: "Real experience applying QA to products and operations.",
+      title: "Experience applying development, automation, data, and functional validation to real processes.",
     },
     projects: {
-      title: "Practical evidence of the testing life cycle.",
+      title: "Projects and evidence of automation, development, and validation.",
       carouselLabel: "Screenshot gallery",
       carouselPrev: "Previous image",
       carouselNext: "Next image",
     },
     certifications: {
-      title: "Training focused on testing, automation, and management.",
+      title: "Complementary training in programming, data, automation, quality, and management.",
     },
     contact: {
-      title: "Let's talk about QA opportunities.",
-      availability: "Available for QA opportunities",
-      roleTitle: "QA Tester focused on quality and automation",
-      text: "I am available for QA Tester, QA automation, or positions where quality is a real part of the product.",
+      title: "Let's talk about technology opportunities.",
+      availability: "Available for professional opportunities",
+      roleTitle: "Development, automation, and development support",
+      text: "I am open to opportunities related to software development, process automation, development support, technical analysis, and functional validation.",
       cardTitle: "Shall we talk?",
-      cardText: "If you have a job opportunity, proposal, or would like to talk about QA and automation, feel free to contact me directly.",
+      cardText: "If you have a job opportunity, proposal, or would like to discuss internal tools, automation, or development support, feel free to contact me directly.",
       emailButton: "Send me an email"
     },
     footer: {
-      copy: "2026 José Sánchez Muñoz. QA Tester Portfolio.",
+      copy: "2026 José Sánchez Muñoz. Professional portfolio.",
       back: "Back to top",
     },
     facts: [
-      ["Profile", "Functional QA + Automation"],
-      ["Technical base", "Web · APIs · SQL"],
-      ["Approach", "Defects · Quality · Evidence"],
+      ["Profile", "Development + Automation"],
+      ["Technical base", "Python · SQL · Excel"],
+      ["Approach", "Processes · Data · Traceability"],
       ["Availability", "Remote · Hybrid · On-site"]
     ],
     skillGroups: [
       {
         title: "Management and collaboration",
-        text: "Task organization, defect tracking, and communication with agile teams.",
+        text: "Task organization, requirements and incident tracking, and communication with users or technical teams.",
         icons: [
-          ["assets/icons/jira.png", "Jira", "Used for agile project management and tracking incidents and bugs."],
+          ["assets/icons/jira.png", "Jira", "Tool for task tracking, incident management, and technical coordination."],
           ["assets/icons/trello.png", "Trello", "Helps organize tasks and workflows through visual boards and lists."],
         ],
       },
       {
         title: "Version control",
-        text: "Change history, technical collaboration, and work traceability.",
+        text: "Change history, technical collaboration, and development traceability.",
         icons: [
           ["assets/icons/github.png", "GitHub", "Supports version control, code review, and collaborative development."],
         ],
       },
       {
-        title: "Test automation",
-        text: "Automated functional testing, BDD, and evidence-oriented reports.",
+        title: "Automation and validation",
+        text: "Workflow automation, functional validation, and consistency checks before delivering a solution.",
         icons: [
-          ["assets/icons/selenium_webdriver.png", "Selenium WebDriver", "Used to automate functional tests in web applications and validate critical flows."],
-          ["assets/icons/serenity_bdd.png", "Serenity BDD", "BDD automation framework with clear, traceable, evidence-oriented reports."],
+          ["assets/icons/selenium_webdriver.png", "Selenium WebDriver", "Used to automate functional validations in web applications."],
+          ["assets/icons/serenity_bdd.png", "Serenity BDD", "BDD framework useful for structuring traceable tests and evidence reports."],
         ],
       },
       {
-        title: "APIs and testing",
-        text: "Endpoint validation, contracts, responses, and test scenarios.",
+        title: "APIs and technical support",
+        text: "Service validation, response review, and technical incident analysis.",
         icons: [
-          ["assets/icons/postman.png", "Postman", "Tool for testing, validating, and documenting REST APIs efficiently."],
+          ["assets/icons/postman.png", "Postman", "Tool for testing, validating, and documenting REST APIs."],
         ],
       },
       {
         title: "Databases",
-        text: "Queries, data validation, and support for result analysis.",
+        text: "Queries, information extraction, data validation, and operational reporting support.",
         icons: [
-          ["assets/icons/sql.png", "SQL", "Used to query, validate, and analyze relational data during testing."],
+          ["assets/icons/sql.png", "SQL", "Used to query, validate, and analyze relational data."],
         ],
       },
       {
         title: "Development environments",
-        text: "Execution, debugging, and maintenance of automated tests.",
+        text: "Execution, debugging, script maintenance, and development of internal solutions.",
         icons: [
-          ["assets/icons/vscode.png", "Visual Studio Code", "Editor used to review, maintain, and run QA support scripts."],
-          ["assets/icons/intellij.png", "IntelliJ IDEA", "IDE used to develop and execute automated tests in Java."],
+          ["assets/icons/vscode.png", "Visual Studio Code", "Editor used for development, automation scripts, and technical maintenance."],
+          ["assets/icons/intellij.png", "IntelliJ IDEA", "IDE used for Java development and test automation."],
         ],
       },
       {
         title: "Languages",
-        text: "Automation, scripting, frontend validation, and technical support.",
+        text: "Development, scripting, automation, frontend validation, and technical support.",
         icons: [
-          ["assets/icons/python.png", "Python", "Useful for scripting, control automation, reporting, and QA analysis support."],
-          ["assets/icons/java.png", "Java", "Language used for automation with Selenium, Cucumber, and BDD frameworks."],
-          ["assets/icons/javascript.png", "JavaScript", "Supports frontend validation, behavior checks, and web flow understanding."],
+          ["assets/icons/python.png", "Python", "Useful for process automation, data transformation, reporting, and internal tools."],
+          ["assets/icons/java.png", "Java", "Language used for development and automation with Selenium, Cucumber, and BDD frameworks."],
+          ["assets/icons/javascript.png", "JavaScript", "Supports development and maintenance of internal web interfaces."],
           ["assets/icons/html.png", "HTML", "Helps review structure, basic accessibility, and web interface behavior."],
           ["assets/icons/css.png", "CSS", "Used to validate styles, responsive design, and component visual consistency."],
         ],
@@ -307,20 +307,20 @@ window.Portfolio.translations = {
     ],
     experienceData: [
       {
-        company: "Banco de la Nación",
-        role: "QA Engineer - Quality Control and Reporting",
-        type: "Professional intern",
-        period: "Jan. 2024 - Jan. 2025",
-        description: "QA work on banking complaint systems, focused on functional testing, production incident management, quality controls, and reporting.",
-        highlights: ["Functional and regression testing", "Production incident analysis", "Control automation with Python and SQL"],
+        company: "Asesores & Multinegocios Cesar Eduardo E.I.R.L.",
+        role: "Software Developer and Automation",
+        type: "Professional experience",
+        period: "Feb. 2025 - Present",
+        description: "Development of internal solutions and custom automations for accounting, commercial, and operational processes, including functional validation and technical support.",
+        highlights: ["Internal tools with Python, Excel, and databases", "Maintenance of internal web applications", "Requirements and incident analysis"],
       },
       {
-        company: "Asesores & Multinegocios Cesar Eduardo E.I.R.L.",
-        role: "QA / Development Support",
-        type: "Pre-professional intern",
-        period: "Sep. 2022 - Dec. 2023",
-        description: "Functional testing on internal web applications, QA support through log analysis, and basic frontend/backend maintenance.",
-        highlights: ["Internal web flow validation", "Log review and technical support", "Frontend/backend maintenance support"],
+        company: "Banco de la Nación",
+        role: "Professional Intern in Automation, Data Quality Control, and Reporting",
+        type: "Professional intern",
+        period: "Jan. 2024 - Jan. 2025",
+        description: "Automation, reporting, and data validation in a complaint management environment, using SQL, advanced Excel, Python, and functional control.",
+        highlights: ["Operational reporting automation", "Functional rule and data consistency validation", "Incident documentation with evidence"],
       },
     ],
     projectsData: [
@@ -330,7 +330,7 @@ window.Portfolio.translations = {
           images: ["assets/img/OrangeHRM.png"],
           video: "",
         },
-        description: "QA automation framework in Java with Selenium and Cucumber, focused on login/logout, BDD, and scalable architecture.",
+        description: "Web automation framework in Java with Selenium and Cucumber, focused on functional validation, BDD, and maintainable structure.",
         tags: ["Java", "Selenium", "Cucumber", "BDD"],
         results: ["Automated login/logout flow", "Gherkin test cases", "Documented evidence and strategy"],
         resources: [
@@ -340,7 +340,7 @@ window.Portfolio.translations = {
       },
     ],
     certificationsData: [
-      { category: "Test automation", name: "Selenium with Java and Cucumber", issuer: "The Free Range Tester (Udemy)" },
+      { category: "Automation and quality", name: "Selenium with Java and Cucumber", issuer: "The Free Range Tester (Udemy)" },
       { category: "Programming", name: "Professional Java Course", issuer: "Código Facilito" },
       { category: "Programming", name: "Professional Python Course", issuer: "Código Facilito" },
       { category: "Programming", name: "Python", issuer: "Kaggle" },
@@ -353,15 +353,15 @@ window.Portfolio.translations = {
     analysisProcessData: [
       [
         "Analysis",
-        "I analyze requirements, business rules, and acceptance criteria to define test scope and strategy."
+        "I understand the problem, business rules, and operational impact before proposing a solution."
       ],
       [
-        "Design",
-        "I design scenarios and test cases prioritizing critical flows, functional risks, and relevant coverage."
+        "Build",
+        "I develop tools, automations, or queries that reduce manual work and improve traceability."
       ],
       [
-        "Execution",
-        "I execute tests, document evidence, and report incidents with traceability."
+        "Validation",
+        "I review data, functional rules, and incidents to deliver useful, consistent, and maintainable results."
       ],
     ]
   }

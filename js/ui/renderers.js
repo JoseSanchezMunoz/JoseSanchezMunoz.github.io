@@ -113,7 +113,11 @@ const renderProjects = (data) => {
   container.innerHTML = "";
   data.projectsData.forEach((project) => {
     const article = document.createElement("article");
-    article.className = "project-card";
+    const hasMedia = Boolean(project.media?.video || getProjectImages(project).length);
+    article.className = `project-card${hasMedia ? "" : " project-card-text"}`;
+    const resourceLinks = project.resources?.length
+      ? `<div class="resource-list">${project.resources.map(([label, href]) => `<a class="button button-secondary" href="${href}" target="_blank" rel="noreferrer">${label}</a>`).join("")}</div>`
+      : "";
     article.innerHTML = `
       ${renderProjectMedia(project, data)}
       <div class="project-body">
@@ -121,7 +125,7 @@ const renderProjects = (data) => {
         <p>${project.description}</p>
         <div class="tags">${project.tags.map((tag) => `<span>${tag}</span>`).join("")}</div>
         <ul class="project-results">${project.results.map((result) => `<li>${result}</li>`).join("")}</ul>
-        <div class="resource-list">${project.resources.map(([label, href]) => `<a class="button button-secondary" href="${href}" target="_blank" rel="noreferrer">${label}</a>`).join("")}</div>
+        ${resourceLinks}
       </div>
     `;
     container.append(article);

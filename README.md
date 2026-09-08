@@ -1,12 +1,12 @@
-# Jose Sanchez Munoz - QA Tester Portfolio
+# Portfolio Profesional
 
-Portfolio web personal enfocado en Quality Assurance.
+Portfolio web personal enfocado en desarrollo de soluciones internas, automatización de procesos, datos operativos y validación funcional.
 
 El sitio esta construido como una página estática con HTML, CSS y JavaScript. 
 
 ## Vista general
 
-- Presentación profesional como QA Tester.
+- Presentación profesional orientada a desarrollo, automatización y soporte de desarrollo.
 - Secciones de experiencia, habilidades, proyectos, certificaciones y contacto.
 - Soporte de idioma ES/EN.
 - Tema claro/oscuro con preferencia guardada en `localStorage`.
@@ -66,7 +66,12 @@ Los estilos siguen una separación por capas:
 - `responsive.css` contiene los cambios para pantallas medianas y pequeñas.
 
 
+## Personalización antes de publicar
+
+- Reemplazar enlaces de GitHub y LinkedIn por URLs reales.
+- Actualizar el correo del botón de contacto.
+- Agregar una fotografía profesional si se desea reemplazar la marca de iniciales.
+
 ## Despliegue
 
 Este proyecto esta preparado para GitHub Pages en [DEMO](https://josesanchezmunoz.github.io/) 
-
