@@ -65,13 +65,6 @@ Los estilos siguen una separación por capas:
 - `sections.css` ajusta bloques específicos del portfolio.
 - `responsive.css` contiene los cambios para pantallas medianas y pequeñas.
 
-
-## Personalización antes de publicar
-
-- Reemplazar enlaces de GitHub y LinkedIn por URLs reales.
-- Actualizar el correo del botón de contacto.
-- Agregar una fotografía profesional si se desea reemplazar la marca de iniciales.
-
 ## Despliegue
 
 Este proyecto esta preparado para GitHub Pages en [DEMO](https://josesanchezmunoz.github.io/) 
