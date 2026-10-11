@@ -52,8 +52,7 @@ window.Portfolio.translations = {
       roleTitle: "Desarrollo, automatización y soporte de desarrollo",
       text: "Estoy abierto a oportunidades vinculadas con desarrollo de software, automatización de procesos, soporte de desarrollo, análisis técnico y validación funcional.",
       cardTitle: "¿Hablamos?",
-      cardText: "Si tienes una oportunidad laboral, propuesta o quieres conversar sobre soluciones internas, automatización o soporte de desarrollo, puedes escribirme directamente.",
-      emailButton: "Enviarme un correo"
+      cardText: "Si tienes una oportunidad laboral, propuesta o quieres conversar sobre soluciones internas, automatización o soporte de desarrollo, puedes escribirme directamente a través de linkedin y/o vía correo electrónico"
     },
     footer: {
       copy: "2026 José Sánchez Muñoz. Portfolio profesional.",
@@ -234,8 +233,7 @@ window.Portfolio.translations = {
       roleTitle: "Development, automation, and development support",
       text: "I am open to opportunities related to software development, process automation, development support, technical analysis, and functional validation.",
       cardTitle: "Shall we talk?",
-      cardText: "If you have a job opportunity, proposal, or would like to discuss internal tools, automation, or development support, feel free to contact me directly.",
-      emailButton: "Send me an email"
+      cardText: "If you have a job opportunity, proposal, or want to discuss internal solutions, automation, or development support, you can contact me directly through LinkedIn and/or via email."
     },
     footer: {
       copy: "2026 José Sánchez Muñoz. Professional portfolio.",
